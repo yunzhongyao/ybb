@@ -1,0 +1,147 @@
+@charset "utf-8";
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+body table {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 780px;
+}
+tbody tr td {
+	text-shadow: 0px 0px;
+	padding-left: 20px;
+}
+
+
+.header {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-position: 0% 0%;
+	background-color: #FFFFFF;
+}
+.main {
+	width: 1000px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main .navbar {
+	background-color: #D1FFFA;
+	width: 200px;
+	height: 700px;
+	float: left;
+	background-image: url(images/20190915134440_tbmwh.jpg);
+}
+.main .navbar a {
+	display: block;
+	width: 70%;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 40px;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	border-radius: 5;
+	border-color: #000000;
+
+}
+.main .navbar a:hover {
+	text-align: center;
+	border-radius: 5;
+	background-color: #B6B6B6;
+}
+
+
+.main .section iframe {
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+
+.main .section {
+	width: 780px;
+	height: 700px;
+	float: left;
+	margin-left: 20px;
+}
+.footer {
+	width: 1000px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-top: opx;
+}
+.d-texe {
+	text-align: center;
+	line-height: 25px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.txte {
+	line-height: 25px;
+	width: 60%;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-indent: 5px;
+	color: #333333;
+}
+.txt2 {
+	line-height: 25px;
+	width: 35%;
+	color: #333333;
+	text-indent: 5px;
+
+}
+.mail1 {
+	width: 5%;
+	line-height: 25px;
+	text-align: center;
+}
+.mail2 {
+	width: 20%;
+	height: 30px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-style: none;
+}
+.d-area {
+	text-align: center;
+	height: 100px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+}
+.areatext {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 60%;
+	height: 100px;
+	text-indent: 5px;
+	color: #333333;
+	float: left;
+}
+.submit {
+	width: 20%;
+	border: none;
+	margin-left: 235px;
+	line-height: 25px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.submit:hover {
+	background-color: #828282;
+}
